@@ -12,8 +12,8 @@ interface DownloadProps {
 
 function Download(props: DownloadProps) {
     const { visible, onClose } = props;
-    const androidDownloadUrl = `${window.location.origin}/fiora.apk`;
-    const iOSDownloadUrl = 'https://apps.apple.com/cn/app/fiora/id1554719127';
+    const androidDownloadUrl = `暂时你还没有能力下载，等待为你放下悬梯`;
+    const iOSDownloadUrl = '暂时你还没有能力下载，等待为你放下悬梯';
 
     return (
         <Dialog
