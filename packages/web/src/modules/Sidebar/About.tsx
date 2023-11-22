@@ -19,38 +19,9 @@ function About(props: AboutProps) {
             onClose={onClose}
         >
             <div>
+                
                 <div className={Common.block}>
-                    <p className={Common.title}>作者</p>
-                    <a
-                        href="https://suisuijiang.com"
-                        target="_black"
-                        rel="noopener noreferrer"
-                    >
-                        https://suisuijiang.com
-                    </a>
-                </div>
-                <div className={Common.block}>
-                    <p className={Common.title}>如何搭建</p>
-                    <a
-                        href="https://yinxin630.github.io/fiora/zh-Hans/"
-                        target="_black"
-                        rel="noopener noreferrer"
-                    >
-                        https://yinxin630.github.io/fiora/zh-Hans/
-                    </a>
-                </div>
-                <div className={Common.block}>
-                    <p className={Common.title}>隐私条款</p>
-                    <a
-                        href="/PrivacyPolicy.html"
-                        target="_black"
-                        rel="noopener noreferrer"
-                    >
-                        {`${window.location.origin}/PrivacyPolicy.html`}
-                    </a>
-                </div>
-                <div className={Common.block}>
-                    <p className={Common.title}>将fiora安装到主屏(PWA)</p>
+                    <p className={Common.title}>国际游乐场说明（可选）</p>
                     <ul>
                         <li>
                             点击地址栏最右边三个点按钮(或者地址栏末尾收藏前的按钮)
@@ -59,17 +30,23 @@ function About(props: AboutProps) {
                     </ul>
                 </div>
                 <div className={Common.block}>
-                    <p className={Common.title}>输入框快捷键</p>
+                    <p className={Common.title}>用户发送消息</p>
                     <ul>
-                        <li>Alt + S: 发送滑稽</li>
-                        <li>Alt + D: 发送表情</li>
+                        <li>若要发送消息，需要注册账号，即可开始聊天</li>
+                        <li>注册账号可以保存你的会话记录</li>
+                        <li>可以互加好友，WeChat私密聊天</li>
+                        <li>账号和密码好好斟酌，不想斟酌就使用你常用喜爱的昵称和简单不会忘的密码。</li>
+                        <li>为防止新注册用户，垃圾人疯狂刷屏，新用户24小时之内每分钟最大上限可发五条消息</li>
                     </ul>
                 </div>
                 <div className={Common.block}>
-                    <p className={Common.title}>命令消息</p>
+                    <p className={Common.title}>其他特点</p>
                     <ul>
-                        <li>-roll [number]: 掷点</li>
-                        <li>-rps: 石头剪刀布</li>
+                        <li>可发送内置表情</li>
+                        <li>可发送你自己的表情包</li>
+                        <li>右上角可邀请好友跟随你</li>
+                        <li>下栏的设置，可自定义聊天风格界面</li>
+                        <li>左上角可修改你自己的头像</li>
                     </ul>
                 </div>
                 <div className={Common.block}>
@@ -77,11 +54,11 @@ function About(props: AboutProps) {
                     <ul>
                         <li>
                             <a
-                                href="https://wangyaxing.cn/"
+                                href="https://spark.tsmoe.com"
                                 target="_black"
                                 rel="noopener noreferrer"
                             >
-                                木子星兮
+                                占位
                             </a>
                         </li>
                     </ul>
