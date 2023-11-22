@@ -47,6 +47,7 @@ function About(props: AboutProps) {
                         <li>右上角可邀请好友跟随你</li>
                         <li>下栏的设置，可自定义聊天风格界面</li>
                         <li>左上角可修改你自己的头像</li>
+                        <li>若要分享文件，可以使用丰巢快递柜，当一次快递员</li>
                     </ul>
                 </div>
                 <div className={Common.block}>
