@@ -115,11 +115,11 @@ function Sidebar() {
                     <Tooltip
                         placement="right"
                         mouseEnterDelay={0.3}
-                        overlay={<span>源码</span>}
+                        overlay={<span>猫咪快递员</span>}
                     >
                         <a
                             className={Style.linkButton}
-                            href="https://github.com/yinxin630/fiora"
+                            href="https://spark.tsmoe.com/filebox"
                             target="_black"
                             rel="noopener noreferrer"
                         >
@@ -142,7 +142,7 @@ function Sidebar() {
                         />,
                     )}
                     {renderTooltip(
-                        '打赏',
+                        '常驻加冰',
                         <IconButton
                             width={40}
                             height={40}
