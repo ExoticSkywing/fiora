@@ -98,7 +98,7 @@ function Other() {
                         }
                     >
                         <Body>
-                            <Text style={styles.listItemTitle}>源码</Text>
+                            <Text style={styles.listItemTitle}>猫咪快递员</Text>
                         </Body>
                         <Right>
                             <Icon
@@ -111,7 +111,7 @@ function Other() {
                     <ListItem
                         icon
                         onPress={() =>
-                            Linking.openURL('https://www.suisuijiang.com')
+                            Linking.openURL('https://spark.tsmoe.com')
                         }
                     >
                         <Body>
@@ -128,7 +128,7 @@ function Other() {
                     <ListItem
                         icon
                         onPress={() =>
-                            Linking.openURL('https://fiora.suisuijiang.com')
+                            Linking.openURL('https://spark.tsmoe.com')
                         }
                     >
                         <Body>
@@ -163,7 +163,7 @@ function Other() {
             <View style={styles.copyrightContainer}>
                 <Text style={styles.copyright}>
                     Copyright© 2015-
-                    {new Date().getFullYear()} 碎碎酱
+                    {new Date().getFullYear()} Nebuluxe
                 </Text>
             </View>
             <PrivacyPolicy
